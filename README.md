@@ -20,5 +20,5 @@ Build and publish to PyPI with [twine](https://twine.readthedocs.io/en/latest/):
 
 ```bash
 pipenv run python setup.py sdist bdist_wheel
-twine upload dist/*
+pipenv run twine upload dist/*
 ```
