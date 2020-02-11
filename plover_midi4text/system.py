@@ -89,6 +89,6 @@ KEYMAPS: Dict[str, Dict[str, Union[str, Tuple[str, ...]]]] = {
 DICTIONARIES_ROOT: str = "asset:plover_midi4text:dictionaries"
 
 DEFAULT_DICTIONARIES: Tuple[str, ...] = (
-    "briefs.json",
-    "main.json",
+    "midi4text_briefs.json",
+    "midi4text_main.json",
 )

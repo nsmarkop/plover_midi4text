@@ -5,6 +5,12 @@ Plover Midi4Text
 implementation for
 `Plover <https://github.com/openstenoproject/plover>`__.
 
+**Warning:** Updating the plugin does not update the default
+dictionaries to their latest versions. Check in the `plugin
+repository <https://github.com/nsmarkop/plover_midi4text>`__ or
+`here <https://github.com/Sillabix/Midi4Text-ortographic-system>`__ for
+the most up to date versions of the dictionary files.
+
 Development
 -----------
 
@@ -26,4 +32,4 @@ Build and publish to PyPI with
 .. code:: bash
 
     pipenv run python setup.py sdist bdist_wheel
-    twine upload dist/*
+    pipenv run twine upload dist/*

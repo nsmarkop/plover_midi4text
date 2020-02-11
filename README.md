@@ -2,6 +2,8 @@
 
 [Midi4Text](https://www.midi4text.com/) English orthographic system implementation for [Plover](https://github.com/openstenoproject/plover).
 
+**Warning:** Updating the plugin does not update the default dictionaries to their latest versions. Check in the [plugin repository](https://github.com/nsmarkop/plover_midi4text) or [here](https://github.com/Sillabix/Midi4Text-ortographic-system) for the most up to date versions of the dictionary files.
+
 ## Development
 
 Update README.rst with [pandoc](https://pandoc.org/):
