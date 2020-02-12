@@ -5,7 +5,7 @@ Plover Midi4Text
 implementation for
 `Plover <https://github.com/openstenoproject/plover>`__.
 
-**Warning:** Updating the plugin does not update the default
+**Warning:** Updating the plugin does not always update the default
 dictionaries to their latest versions. Check in the `plugin
 repository <https://github.com/nsmarkop/plover_midi4text>`__ or
 `here <https://github.com/Sillabix/Midi4Text-ortographic-system>`__ for
