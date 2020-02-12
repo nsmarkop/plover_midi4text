@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ba73b5d86d331dae989c03d550c93c3f069df80508b307e57cb1caeaf84eb547"
+            "sha256": "d69a7fe5ad633a6731639c1f94a9130ef4f8ebfd35f4eb817f8a501ff70a3814"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -40,13 +40,6 @@
                 "sha256:4a03bcdd59ba8fdd53232390bbac62b2485b28ca5bd21fea3f2dc8edccc8ec69"
             ],
             "version": "==4.0.0.dev8"
-        },
-        "plover-michela": {
-            "hashes": [
-                "sha256:f7dbf8ae516bb46d4e14515f940d7e2269d42775774e901fe3590da5431c8372",
-                "sha256:e2d62e88f2512477c8be4c346886af718c4ca435c06db7c2bce77553c7514d00"
-            ],
-            "version": "==0.1.6"
         },
         "plover-midi": {
             "hashes": [
@@ -390,6 +383,7 @@
                 "sha256:d43943ef777f9a1c42bf4e552ba23ac77a6351de620aa9acf64ad54933ad4d34",
                 "sha256:8c8aaad94455178e3187ab22c8b01a3837f8ee50e09cf31f1ba129eb293ec30b"
             ],
+            "markers": "implementation_name == 'cpython' and python_version < '3.8'",
             "version": "==1.4.1"
         },
         "typing-extensions": {
