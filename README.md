@@ -18,6 +18,12 @@ Install dependencies with [pipenv](https://github.com/pypa/pipenv):
 pipenv install --dev
 ```
 
+Update dictionary files:
+
+```bash
+pipenv run python update_dictionaries.py
+```
+
 Build and publish to PyPI with [twine](https://twine.readthedocs.io/en/latest/):
 
 ```bash
