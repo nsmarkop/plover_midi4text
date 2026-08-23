@@ -6,12 +6,6 @@
 
 ## Development
 
-Update README.rst with [pandoc](https://pandoc.org/):
-
-```bash
-pandoc README.md -o README.rst
-```
-
 Set up the virtual environment and install dependencies via [uv](https://docs.astral.sh/uv/):
 
 ```bash
