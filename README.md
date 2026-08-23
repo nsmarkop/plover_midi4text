@@ -21,10 +21,10 @@ uv run update_dictionaries.py
 Build and publish to PyPI:
 
 ```bash
-uv build
+uv build --clear
 uv publish --publish-url https://test.pypi.org/legacy/ --dry-run
 uv publish --publish-url https://test.pypi.org/legacy/
 uv publish
 ```
 
-NOTE: You will be prompted to enter your token, which you can create / find under Account Settings -> API tokens on PyPI.
+NOTE: You will be prompted to enter your username + password or your token, but only tokens will work for the actual publishing. You create / find your token(s) under Account Settings -> API tokens on PyPI.
