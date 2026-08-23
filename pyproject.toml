@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "plover_midi4text"
 version = "0.0.4"
 description = "Midi4Text English orthographic system implementation for Plover"
-readme = "README.rst"
+readme = "README.md"
 authors = [{name = "Nick Markopoulos", email = "nsmarkop@gmail.com"}]
 license = "GPL-3.0-or-later"
 classifiers = [
