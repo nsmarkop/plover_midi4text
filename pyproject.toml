@@ -37,4 +37,7 @@ Midi4Text = "plover_midi4text.system"
 [tool.setuptools]
 zip-safe = true
 include-package-data = true
-packages = ["plover_midi4text"]
+packages = ["plover_midi4text", "plover_midi4text.dictionaries"]
+
+[tool.setuptools.package-data]
+"plover_midi4text.dictionaries" = ["*.json"]
