@@ -263,7 +263,7 @@ wheels = [
 
 [[package]]
 name = "plover-midi4text"
-version = "0.0.4"
+version = "0.0.5"
 source = { editable = "." }
 dependencies = [
     { name = "plover" },
