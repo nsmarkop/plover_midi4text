@@ -12,21 +12,25 @@ Update README.rst with [pandoc](https://pandoc.org/):
 pandoc README.md -o README.rst
 ```
 
-Install dependencies with [pipenv](https://github.com/pypa/pipenv):
+Set up the virtual environment and install dependencies via [uv](https://docs.astral.sh/uv/):
 
 ```bash
-pipenv install --dev
+uv sync
 ```
 
 Update dictionary files:
 
 ```bash
-pipenv run python update_dictionaries.py
+uv run update_dictionaries.py
 ```
 
-Build and publish to PyPI with [twine](https://twine.readthedocs.io/en/latest/):
+Build and publish to PyPI:
 
 ```bash
-pipenv run python setup.py sdist bdist_wheel
-pipenv run twine upload dist/*
+uv build
+uv publish --publish-url https://test.pypi.org/legacy/ --dry-run
+uv publish --publish-url https://test.pypi.org/legacy/
+uv publish
 ```
+
+NOTE: You will be prompted to enter your token, which you can create / find under Account Settings -> API tokens on PyPI.

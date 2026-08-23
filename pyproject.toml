@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plover_midi4text"
+version = "0.0.4"
+description = "Midi4Text English orthographic system implementation for Plover"
+readme = "README.rst"
+authors = [{name = "Nick Markopoulos", email = "nsmarkop@gmail.com"}]
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Plugins",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["plover plover_plugin"]
+dependencies = [
+    "plover>=4.0.0.dev7",
+]
+
+[dependency-groups]
+dev = [
+    "pylint",
+    "isort",
+    "mypy",
+    "black",
+    "twine",
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/nsmarkop/plover_midi4text"
+
+[project.entry-points."plover.system"]
+Midi4Text = "plover_midi4text.system"
+"Midi4Text 2/8 EL" = "plover_midi4text.system_extended"
+
+[tool.setuptools]
+zip-safe = true
+include-package-data = true
+packages = ["plover_midi4text"]
