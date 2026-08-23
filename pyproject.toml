@@ -23,12 +23,8 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pylint",
-    "isort",
-    "mypy",
-    "black",
-    "twine",
-    "requests",
+    "mypy>=2.3.1",
+    "ruff>=0.16.4",
 ]
 
 [project.urls]
