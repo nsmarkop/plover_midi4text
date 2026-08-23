@@ -3,7 +3,6 @@
 import os
 import shutil
 import tempfile
-import urllib.request
 import zipfile
 from typing import NamedTuple
 
